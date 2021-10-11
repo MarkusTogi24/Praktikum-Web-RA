@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Tugas Pemweb 2</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="bar">
+        <div class="row">
+            <img src="media/logo.png" alt="logo" width="50" height="50">
+            <div class="text-xl">Voting Center</div>
+        </div>
+    </div>
+    <div class="secondary-bar">
+        <a href="index.html" class="now">Home</a>
+        <a href="show.html">Data</a>
+        <a href="about.html">About</a>
+    </div>
+    <div id="wrapper" class="dark-shadow">
+        <div class="row">
+            <div class="col pad-one">
+
+                <h1>Let's Contribute!</h1>
+                <h3>Choose our next leader</h3>
+                <div class="col">
+                    <div class="row">
+                        <div class="card dark-shadow pad-half">
+                            <div class="col pad-half">
+                                <div class="row">
+                                    <div class="card dark-shadow">
+                                        <img src="media/elon.jpg" alt="logo" class="responsive-img">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col pad-half">
+                                <div class="row">
+                                    <div class="card dark-shadow">
+                                        <img src="media/jeff.jpg" alt="logo" class="responsive-img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="detailcard dark-shadow pad-half">
+                                <h4>Elon "</h4>
+                                <div class="text-m">Mars Explorer</div>
+                                <h4>" Musk</h4>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="detailcard dark-shadow pad-half">
+                                <h4>Jeff "</h4>
+                                <div class="text-m">The Richest</div>
+                                <h4>" Bezos</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col pad-one">
+                <div class="form-card dark-shadow pad-one">
+                    <div class="text-l">
+                        Submit your vote now!
+                    </div>
+                </div>
+
+                <div class="form-card dark-shadow pad-one">
+                    <form class="form-control">
+                        <div class="row pad-half">
+                            <div class="col pad-right">
+                                <input type="text" class ="dark-shadow-in" placeholder="First Name">
+                            </div>
+                            <div class="col pad-left">
+                                <input type="text" class ="dark-shadow-in" placeholder="Last Name">
+                            </div>
+                        </div>
+                        <div class="row pad-half">
+                            <select class ="dark-shadow-in" required>
+                                <option disabled selected hidden>Country</option>
+                                <option>Australia</option>
+                                <option>Brazil</option>
+                                <option>Canada</option>
+                                <option>Denmark</option>
+                                <option>Ethiopia</option>
+                            </select>
+                        </div>
+                        <div class="row pad-half">
+                            <input type="text" class ="dark-shadow-in" placeholder="Postal Code">
+                        </div>
+                        <div class="row pad-half">
+                            <input type="text" class ="dark-shadow-in" placeholder="Favorite Football Club">
+                        </div>
+                        <div class="row pad-half">
+                            <div class="col">
+                                <label class="container">Elon Musk
+                                    <input type="radio" name="radio">
+                                    <span class="checkmark dark-shadow-in"></span>
+                                  </label>
+                            </div>
+                            <div class="col pad-left">
+                                  <label class="container">Jeff Bezos
+                                    <input type="radio" name="radio">
+                                    <span class="checkmark dark-shadow-in"></span>
+                                  </label>
+                            </div>
+                        </div>
+
+                        <div class="row pad-half">
+                            <button class="submit-button">
+                                SUBMIT
+                            </button>
+                        </div>
+                        
+                    </form>
+                </div>   
+
+            </div>
+        </div>
+    </div>
+    <div class="bar">
+        <div class="col">
+            <div class="text-s">
+                Markus Togi Fedrian Rivaldi Sinaga
+            </div>
+            <div class="text-s">
+                118140037
+            </div>
+        </div>
+        
+        <div class="text-s">
+            Copyright © Stark Industries 2021
+        </div>
+
+    </div>
+    
+
+    <!-- Scroll to Top Button-->
+    <!-- <a class="scroll-to-top" href="#page-top">
+    </a> -->
+
+</body>
+<script>
+    $("#dataTable").DataTable({
+        orderCellsTop: true,
+    });
+</script>
+</html>

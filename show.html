@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Tugas Pemweb 2</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="bar">
+        <div class="row">
+            <img src="media/logo.png" alt="logo" width="50" height="50">
+            <div class="text-xl">Voting Center</div>
+        </div>
+    </div>
+    <div class="secondary-bar">
+        <a href="index.html">Home</a>
+        <a href="show.html" class="now">Data</a>
+        <a href="about.html">About</a>
+    </div>
+
+    <div id="wrapper" class="dark-shadow">
+        <div class="row pad-half">
+            <div class="col center">
+                <div class="text-l">Voting Result</div>
+                <br>
+                <div class="text-m">
+                    This datas are pure dumm(ies), because designing Query String means understanding the basic
+                    <br>
+                    of usage of programming language in Web Development, as for now, I haven't yet.
+                </div>
+            </div>
+            
+        </div>
+        <div class="row pad-half">
+            <div class="col pad-right middle" width=30%>
+                <div class="detailcard resultcard-left dark-shadow pad-half">
+                    <img src="media/elon-m.jpg" class="round-responsive-img">
+                </div>
+                <div class="detailcard resultcard-left dark-shadow pad-half">
+                    <div class="text-l">80 %</div>
+                </div>
+                <div class="detailcard resultcard-left dark-shadow pad-half">
+                    <div class="text-l">8 voters</div>
+                </div>
+            </div>
+            <div class="col" width=40%>
+                <div class="detailcard dark-shadow pad-half">
+                    <table class="table table-bordered">
+                        <tr>
+                            <th width=40%>Name</th>
+                            <th width=30%>Country</th>
+                            <th width=30%>Choice</th>
+                          </tr>
+                          <tr>
+                            <td>Markus Togi</td>
+                            <td>Brazil</td>
+                            <td>Elon Musk</td>
+                          </tr>
+                          <tr>
+                            <td>Fedrian Rivaldi</td>
+                            <td>Canada</td>
+                            <td>Elon Musk</td>
+                          </tr>
+                          <tr>
+                            <td>Dummy Dummer</td>
+                            <td>Wkwk Land</td>
+                            <td>Elon Musk</td>
+                          </tr>
+                          <tr>
+                            <td>Marco Polo</td>
+                            <td>Venetian</td>
+                            <td>Elon Musk</td>
+                          </tr>
+                          <tr>
+                            <td>Bukan Marcopolo</td>
+                            <td>Costa Rica</td>
+                            <td>Elon Musk</td>
+                          </tr>
+                          <tr>
+                            <td>Anak Nakal</td>
+                            <td>Ethiopia</td>
+                            <td>Jeff Bezos</td>
+                          </tr>
+                          <tr>
+                            <td>Anak Baik</td>
+                            <td>UAE</td>
+                            <td>Elon Musk</td>
+                          </tr>
+                          <tr>
+                            <td>Cristiano Ronaldo</td>
+                            <td>Portugal</td>
+                            <td>Elon Musk</td>
+                          </tr>
+                          <tr>
+                            <td>Lord Rangga</td>
+                            <td>Sunda Empire</td>
+                            <td>Elon Musk</td>
+                          </tr>
+                          <tr>
+                            <td>Lionel Messi</td>
+                            <td>Argentina</td>
+                            <td>Jeff Bezos</td>
+                          </tr>
+                    </table>
+                </div>
+                
+            </div>
+            <div class="col pad-left middle" width=30%>
+                <div class="detailcard resultcard-right dark-shadow pad-half">
+                    <img src="media/jeff-m.jpg" class="round-responsive-img">
+                </div>
+                <div class="detailcard resultcard-right dark-shadow pad-half">
+                    <div class="text-l">20 %</div>
+                </div>
+                <div class="detailcard resultcard-right dark-shadow pad-half">
+                    <div class="text-l">2 voters</div>
+                </div>
+                
+            </div>
+            
+        </div>
+        <div class="row pad-half">
+            
+        </div>
+        
+        
+    </div>
+
+    <div class="bar">
+        <div class="col">
+            <div class="text-s">
+                Markus Togi Fedrian Rivaldi Sinaga
+            </div>
+            <div class="text-s">
+                118140037
+            </div>
+        </div>
+        
+        <div class="text-s">
+            Copyright © Stark Industries 2021
+        </div>
+
+    </div>
+
+</body>
+<script>
+    $("#dataTable").DataTable({
+        orderCellsTop: true,
+    });
+</script>
+</html>
